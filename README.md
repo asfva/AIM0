@@ -2,7 +2,7 @@
 
 **A tiny target range you can play with a webcam.** Move your index finger to aim, pinch your thumb and index finger to fire. Or try it with a mouse.
 
-**[Play AIM/0](https://asfva.github.io/AIM0/)** · [How it works](#how-it-works) · [Privacy](#privacy)
+**[Play AIM/0 (enable Pages first)](https://asfva.github.io/AIM0/)** · [How it works](#how-it-works) · [Privacy](#privacy)
 
 ## The game
 
