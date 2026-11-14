@@ -2,7 +2,7 @@
 
 **A tiny target range you can play with a webcam.** Move your index finger to aim, pinch your thumb and index finger to fire. Or try it with a mouse.
 
-**[Play AIM/0 (enable Pages first)](https://asfva.github.io/AIM0/)** · [How it works](#how-it-works) · [Privacy](#privacy)
+**[Play AIM/0](https://asfva.github.io/AIM0/)** · [How it works](#how-it-works) · [Privacy](#privacy)
 
 ## The game
 
@@ -30,29 +30,13 @@ Open [http://localhost:8000](http://localhost:8000). The webpage is `index.html`
 
 ## Privacy
 
-Webcam mode is optional. The app requests camera permission when you select webcam play, processes frames in the browser, does not record or upload footage, and stops camera tracks at the end of a session or when the page is hidden. Scorecards contain **stats and graphics only**, never camera images. Third-party services supply the MediaPipe library/model and optional fonts; those providers may receive standard web requests and MediaPipe may collect performance/usage metrics. Review [PRIVACY.md](PRIVACY.md) before publishing.
+Webcam mode is optional. The app requests camera permission when you select webcam play, processes frames in the browser, does not record or upload footage, and stops camera tracks at the end of a session or when the page is hidden. Scorecards contain **stats and graphics only**, never camera images. Third-party services supply the MediaPipe library/model and optional fonts; those providers may receive standard web requests and MediaPipe may collect performance/usage metrics. Read more in [PRIVACY.md](PRIVACY.md).
 
 ## Share a run
 
 1. Complete a challenge or end free practice.
 2. Choose **Save scorecard** to get a downloadable PNG.
-3. Choose **Post to X** to open a draft with the run stats and, once hosted, the live link.
+3. Choose **Post to X** to open a draft with the run stats and the game link.
 4. Attach the saved PNG yourself if you'd like an image in the post.
 
 The X draft is editable. The game never publishes on anyone's behalf.
-
-## Deploy for free
-
-See **[DEPLOY.md](DEPLOY.md)** for GitHub Pages instructions. Upload these files to a public repository and enable Pages from `main` / `(root)`.
-
-## Project notes
-
-- Tracking accuracy varies with lighting, webcam angle and hardware.
-- Scores are local and self-reported; there is no anti-cheat or official leaderboard.
-- The project uses MediaPipe Tasks Vision `1.2.3`, loaded from a CDN; test webcam mode on the published site before announcing the link.
-- The interface loads optional fonts from Google Fonts. If unavailable, local system fallbacks are used.
-- No image or camera frame is sent to X by the app itself.
-
-## Code and licensing
-
-The project files are publicly viewable when hosted in a public repository. **No reuse license has been granted yet.** If you want others to reuse or modify the code, choose a license and add a `LICENSE` file before calling the project open source. The code is available for review and feedback in the meantime.
