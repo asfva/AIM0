@@ -2,7 +2,7 @@
 
 **A tiny target range you can play with a webcam.** Move your index finger to aim, pinch your thumb and index finger to fire. Or try it with a mouse.
 
-**[Play AIM/0](https://asfva.github.io/AIM0/)** · [How it works](#how-it-works) · [Privacy](#privacy)
+**Public demo temporarily paused.** · [How it works](#how-it-works) · [Privacy](#privacy)
 
 ## The game
 
@@ -20,13 +20,6 @@ AIM/0 uses **MediaPipe Hand Landmarker** for real-time, one-hand tracking in the
 
 **Requirements:** recent Chrome or Edge, camera permission for webcam mode, and HTTPS (or localhost) for camera access. External model files and fonts require an internet connection. Mouse mode works without a camera.
 
-## Run locally
-
-```bash
-python3 -m http.server 8000
-```
-
-Open [http://localhost:8000](http://localhost:8000). The webpage is `index.html`.
 
 ## Privacy
 
@@ -36,7 +29,9 @@ Webcam mode is optional. The app requests camera permission when you select webc
 
 1. Complete a challenge or end free practice.
 2. Choose **Save scorecard** to get a downloadable PNG.
-3. Choose **Post to X** to open a draft with the run stats and the game link.
+3. Choose **Post to X** to open a draft with the run stats (when the public demo returns).
 4. Attach the saved PNG yourself if you'd like an image in the post.
 
 The X draft is editable. The game never publishes on anyone's behalf.
+
+The implementation is being kept private during this stage of development.
